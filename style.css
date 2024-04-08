@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+  }
+  
+  #gameCanvas {
+    border: 2px solid #333;
+  }
+  
+  /* Style the snake */
+  .snake {
+    fill: green;
+  }
+  
+  /* Style the food */
+  .food {
+    fill: red;
+  }
+  
+  /* Style the score */
+  .score {
+    font-size: 20px;
+    font-weight: bold;
+    fill: black;
+  }
+  
